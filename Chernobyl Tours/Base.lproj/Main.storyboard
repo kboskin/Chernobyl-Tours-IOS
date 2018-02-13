@@ -20,11 +20,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ax1-Mr-pdl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="first" systemItem="mostViewed" id="wNF-ZE-IrR"/>
+                    <tabBarItem key="tabBarItem" title="Log out" image="iconExit" selectedImage="iconExit" id="wNF-ZE-IrR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4S-Sb-oVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489" y="-1310"/>
+            <point key="canvasLocation" x="1399" y="585"/>
         </scene>
         <!--About us-->
         <scene sceneID="hNz-n2-bh7">
@@ -57,50 +57,35 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Languages" image="iconLanguage" selectedImage="iconLanguage" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1256" y="-800"/>
+            <point key="canvasLocation" x="2049" y="-968"/>
         </scene>
         <!--Languages-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController title="Languages" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Chernobyl_Tours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Languages" id="8rJ-Kc-sve" customClass="MapController" customModule="Chernobyl_Tours" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="59.5" y="262.5" width="201.5" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="52.5" y="313.5" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" showsPointsOfInterest="NO" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55d-84-Kgc">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="iconMarker" selectedImage="iconMarker" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2130" y="-240"/>
+            <point key="canvasLocation" x="1252.5" y="-1445.0704225352113"/>
         </scene>
-        <!--Item-->
+        <!--Book a tour-->
         <scene sceneID="aio-Ig-jhD">
             <objects>
                 <viewController id="Zwk-L9-0o7" sceneMemberID="viewController">
@@ -110,13 +95,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Sq7-5h-G4m"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="a1f-Ro-8cT"/>
+                    <tabBarItem key="tabBarItem" title="Book a tour" image="iconPricing" selectedImage="iconPricing" id="a1f-Ro-8cT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nn5-Cn-cZ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1213" y="426"/>
+            <point key="canvasLocation" x="2048" y="90"/>
         </scene>
-        <!--Item-->
+        <!--About us-->
         <scene sceneID="ZXd-5N-NVp">
             <objects>
                 <viewController id="PPo-Cy-wtl" sceneMemberID="viewController">
@@ -126,11 +111,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="9aw-3c-XTB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="G1X-xY-amB"/>
+                    <tabBarItem key="tabBarItem" title="About us" image="iconAbout" selectedImage="iconAbout" id="G1X-xY-amB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ods-10-bhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="488" y="1203"/>
+            <point key="canvasLocation" x="1399" y="-385"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="B6k-Oc-S76">
@@ -196,11 +181,14 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-870" y="-320"/>
+            <point key="canvasLocation" x="-878" y="-320"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="iconAbout" width="25" height="25"/>
+        <image name="iconExit" width="25" height="25"/>
+        <image name="iconLanguage" width="25" height="25"/>
+        <image name="iconMarker" width="25" height="25"/>
+        <image name="iconPricing" width="25" height="25"/>
     </resources>
 </document>

@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A4C58EE6202CF4B9008F3040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */; };
 		A4C58EE8202CF4B9008F3040 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */; };
-		A4C58EEA202CF4B9008F3040 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE9202CF4B9008F3040 /* SecondViewController.swift */; };
+		A4C58EEA202CF4B9008F3040 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE9202CF4B9008F3040 /* MapController.swift */; };
 		A4C58EED202CF4B9008F3040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EEB202CF4B9008F3040 /* Main.storyboard */; };
 		A4C58EEF202CF4BA008F3040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EEE202CF4B9008F3040 /* Assets.xcassets */; };
 		A4C58EF2202CF4BA008F3040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EF0202CF4BA008F3040 /* LaunchScreen.storyboard */; };
 		A4C58EFD202CF4BA008F3040 /* Chernobyl_ToursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EFC202CF4BA008F3040 /* Chernobyl_ToursTests.swift */; };
 		A4C58F08202CF4BA008F3040 /* Chernobyl_ToursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58F07202CF4BA008F3040 /* Chernobyl_ToursUITests.swift */; };
+		B6B91FFEB4DD22BE3A49C1E4 /* Pods_Chernobyl_ToursUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539FF91D8676CC489E7758C7 /* Pods_Chernobyl_ToursUITests.framework */; };
+		D3572DCFDDEF84685A8042F4 /* Pods_Chernobyl_ToursTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E569217F7479FA0545F566BF /* Pods_Chernobyl_ToursTests.framework */; };
+		DD5A80AF19B68F6A410FFB69 /* Pods_Chernobyl_Tours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223CDA5A1743B8CC0138B0EB /* Pods_Chernobyl_Tours.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E11692C0310BEAFCD905959 /* Pods-Chernobyl ToursTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests.release.xcconfig"; sourceTree = "<group>"; };
+		223CDA5A1743B8CC0138B0EB /* Pods_Chernobyl_Tours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chernobyl_Tours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3A44E8D93FEEEB1E01E6F3 /* Pods-Chernobyl ToursUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursUITests/Pods-Chernobyl ToursUITests.release.xcconfig"; sourceTree = "<group>"; };
+		539FF91D8676CC489E7758C7 /* Pods_Chernobyl_ToursUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chernobyl_ToursUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C7CDBB876B6EDBAD61F00 /* Pods-Chernobyl ToursTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4C58EE2202CF4B9008F3040 /* Chernobyl Tours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chernobyl Tours.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A4C58EE9202CF4B9008F3040 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A4C58EE9202CF4B9008F3040 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		A4C58EEC202CF4B9008F3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C58EEE202CF4B9008F3040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C58EF1202CF4BA008F3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		A4C58F03202CF4BA008F3040 /* Chernobyl ToursUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chernobyl ToursUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C58F07202CF4BA008F3040 /* Chernobyl_ToursUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chernobyl_ToursUITests.swift; sourceTree = "<group>"; };
 		A4C58F09202CF4BA008F3040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E9D5F62F2C71B56A8E24D9 /* Pods-Chernobyl Tours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl Tours.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl Tours/Pods-Chernobyl Tours.debug.xcconfig"; sourceTree = "<group>"; };
+		E0FBDE89760EAE898A663112 /* Pods-Chernobyl ToursUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursUITests/Pods-Chernobyl ToursUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E569217F7479FA0545F566BF /* Pods_Chernobyl_ToursTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chernobyl_ToursTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F666FF0BE0C161399CA3FDF4 /* Pods-Chernobyl Tours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl Tours.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl Tours/Pods-Chernobyl Tours.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5A80AF19B68F6A410FFB69 /* Pods_Chernobyl_Tours.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3572DCFDDEF84685A8042F4 /* Pods_Chernobyl_ToursTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B91FFEB4DD22BE3A49C1E4 /* Pods_Chernobyl_ToursUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A8BC3F663D5B46A973E743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				223CDA5A1743B8CC0138B0EB /* Pods_Chernobyl_Tours.framework */,
+				E569217F7479FA0545F566BF /* Pods_Chernobyl_ToursTests.framework */,
+				539FF91D8676CC489E7758C7 /* Pods_Chernobyl_ToursUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4C58ED9202CF4B9008F3040 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				A4C58EFB202CF4BA008F3040 /* Chernobyl ToursTests */,
 				A4C58F06202CF4BA008F3040 /* Chernobyl ToursUITests */,
 				A4C58EE3202CF4B9008F3040 /* Products */,
+				B46C02C6F33B34484D699E78 /* Pods */,
+				05A8BC3F663D5B46A973E743 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +128,7 @@
 			children = (
 				A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */,
 				A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */,
-				A4C58EE9202CF4B9008F3040 /* SecondViewController.swift */,
+				A4C58EE9202CF4B9008F3040 /* MapController.swift */,
 				A4C58EEB202CF4B9008F3040 /* Main.storyboard */,
 				A4C58EEE202CF4B9008F3040 /* Assets.xcassets */,
 				A4C58EF0202CF4BA008F3040 /* LaunchScreen.storyboard */,
@@ -128,6 +155,19 @@
 			path = "Chernobyl ToursUITests";
 			sourceTree = "<group>";
 		};
+		B46C02C6F33B34484D699E78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9E9D5F62F2C71B56A8E24D9 /* Pods-Chernobyl Tours.debug.xcconfig */,
+				F666FF0BE0C161399CA3FDF4 /* Pods-Chernobyl Tours.release.xcconfig */,
+				689C7CDBB876B6EDBAD61F00 /* Pods-Chernobyl ToursTests.debug.xcconfig */,
+				0E11692C0310BEAFCD905959 /* Pods-Chernobyl ToursTests.release.xcconfig */,
+				E0FBDE89760EAE898A663112 /* Pods-Chernobyl ToursUITests.debug.xcconfig */,
+				2E3A44E8D93FEEEB1E01E6F3 /* Pods-Chernobyl ToursUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C58F0C202CF4BA008F3040 /* Build configuration list for PBXNativeTarget "Chernobyl Tours" */;
 			buildPhases = (
+				8737E3CD121FBC241EDDA37A /* [CP] Check Pods Manifest.lock */,
 				A4C58EDE202CF4B9008F3040 /* Sources */,
 				A4C58EDF202CF4B9008F3040 /* Frameworks */,
 				A4C58EE0202CF4B9008F3040 /* Resources */,
+				F59C3CB18209A8E927D50EF7 /* [CP] Embed Pods Frameworks */,
+				665C30CBF815429C1A73C2EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C58F0F202CF4BA008F3040 /* Build configuration list for PBXNativeTarget "Chernobyl ToursTests" */;
 			buildPhases = (
+				780812DAE73C2E3AC664380D /* [CP] Check Pods Manifest.lock */,
 				A4C58EF4202CF4BA008F3040 /* Sources */,
 				A4C58EF5202CF4BA008F3040 /* Frameworks */,
 				A4C58EF6202CF4BA008F3040 /* Resources */,
+				E5701B2F9D5BD3DD1E9FB7A6 /* [CP] Embed Pods Frameworks */,
+				61F35D41F2BBB17AD0E87ADB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C58F12202CF4BA008F3040 /* Build configuration list for PBXNativeTarget "Chernobyl ToursUITests" */;
 			buildPhases = (
+				68DE75FE8A5C95F1FDFA2DB4 /* [CP] Check Pods Manifest.lock */,
 				A4C58EFF202CF4BA008F3040 /* Sources */,
 				A4C58F00202CF4BA008F3040 /* Frameworks */,
 				A4C58F01202CF4BA008F3040 /* Resources */,
+				56B6B2A4F20C886C19B40B1E /* [CP] Embed Pods Frameworks */,
+				A96B51CF94CBC9A766DCEB2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +306,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56B6B2A4F20C886C19B40B1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl ToursUITests/Pods-Chernobyl ToursUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F35D41F2BBB17AD0E87ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665C30CBF815429C1A73C2EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl Tours/Pods-Chernobyl Tours-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl Tours/Pods-Chernobyl Tours-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DE75FE8A5C95F1FDFA2DB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chernobyl ToursUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780812DAE73C2E3AC664380D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chernobyl ToursTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8737E3CD121FBC241EDDA37A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chernobyl Tours-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96B51CF94CBC9A766DCEB2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl ToursUITests/Pods-Chernobyl ToursUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5701B2F9D5BD3DD1E9FB7A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59C3CB18209A8E927D50EF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chernobyl Tours/Pods-Chernobyl Tours-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4C58EDE202CF4B9008F3040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C58EEA202CF4B9008F3040 /* SecondViewController.swift in Sources */,
+				A4C58EEA202CF4B9008F3040 /* MapController.swift in Sources */,
 				A4C58EE6202CF4B9008F3040 /* AppDelegate.swift in Sources */,
 				A4C58EE8202CF4B9008F3040 /* FirstViewController.swift in Sources */,
 			);
@@ -428,6 +627,7 @@
 		};
 		A4C58F0D202CF4BA008F3040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E9D5F62F2C71B56A8E24D9 /* Pods-Chernobyl Tours.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +642,7 @@
 		};
 		A4C58F0E202CF4BA008F3040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F666FF0BE0C161399CA3FDF4 /* Pods-Chernobyl Tours.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +657,7 @@
 		};
 		A4C58F10202CF4BA008F3040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689C7CDBB876B6EDBAD61F00 /* Pods-Chernobyl ToursTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +674,7 @@
 		};
 		A4C58F11202CF4BA008F3040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E11692C0310BEAFCD905959 /* Pods-Chernobyl ToursTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		A4C58F13202CF4BA008F3040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FBDE89760EAE898A663112 /* Pods-Chernobyl ToursUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +707,7 @@
 		};
 		A4C58F14202CF4BA008F3040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3A44E8D93FEEEB1E01E6F3 /* Pods-Chernobyl ToursUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
