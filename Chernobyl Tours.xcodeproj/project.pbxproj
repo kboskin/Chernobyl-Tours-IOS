@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A485981C2039AF4600A40384 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A485981B2039AF4600A40384 /* CoreLocation.framework */; };
+		A4A92CE6207F673D0083A35B /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A92CE5207F673D0083A35B /* CustomInfoWindow.xib */; };
+		A4A92CE8207F692F0083A35B /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */; };
 		A4ADF11620383DFA00BDC5FF /* ModelMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADF11520383DFA00BDC5FF /* ModelMarker.swift */; };
 		A4ADF1182038A74800BDC5FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4ADF1172038A74800BDC5FF /* Localizable.strings */; };
+		A4C4CDF0203ED63F00B2C391 /* DisplayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C4CDEF203ED63F00B2C391 /* DisplayPoint.swift */; };
 		A4C58EE6202CF4B9008F3040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */; };
 		A4C58EE8202CF4B9008F3040 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */; };
 		A4C58EEA202CF4B9008F3040 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE9202CF4B9008F3040 /* MapController.swift */; };
 		A4C58EED202CF4B9008F3040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EEB202CF4B9008F3040 /* Main.storyboard */; };
 		A4C58EEF202CF4BA008F3040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EEE202CF4B9008F3040 /* Assets.xcassets */; };
-		A4C58EF2202CF4BA008F3040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EF0202CF4BA008F3040 /* LaunchScreen.storyboard */; };
+		A4C58EF2202CF4BA008F3040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C58EF0202CF4BA008F3040 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = ("\"NewSegue\"", ); }; };
 		A4C58EFD202CF4BA008F3040 /* Chernobyl_ToursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EFC202CF4BA008F3040 /* Chernobyl_ToursTests.swift */; };
 		A4C58F08202CF4BA008F3040 /* Chernobyl_ToursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58F07202CF4BA008F3040 /* Chernobyl_ToursUITests.swift */; };
 		B6B91FFEB4DD22BE3A49C1E4 /* Pods_Chernobyl_ToursUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539FF91D8676CC489E7758C7 /* Pods_Chernobyl_ToursUITests.framework */; };
@@ -48,8 +51,11 @@
 		689C7CDBB876B6EDBAD61F00 /* Pods-Chernobyl ToursTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A485981B2039AF4600A40384 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A485981D2039C0DF00A40384 /* Kiev.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kiev.gpx; sourceTree = "<group>"; };
+		A4A92CE5207F673D0083A35B /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
 		A4ADF11520383DFA00BDC5FF /* ModelMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMarker.swift; sourceTree = "<group>"; };
 		A4ADF1172038A74800BDC5FF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A4C4CDEF203ED63F00B2C391 /* DisplayPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPoint.swift; sourceTree = "<group>"; };
 		A4C58EE2202CF4B9008F3040 /* Chernobyl Tours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chernobyl Tours.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -138,13 +144,16 @@
 			isa = PBXGroup;
 			children = (
 				A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */,
+				A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */,
 				A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */,
 				A4C58EE9202CF4B9008F3040 /* MapController.swift */,
 				A4C58EEB202CF4B9008F3040 /* Main.storyboard */,
 				A4C58EEE202CF4B9008F3040 /* Assets.xcassets */,
+				A4A92CE5207F673D0083A35B /* CustomInfoWindow.xib */,
 				A4C58EF0202CF4BA008F3040 /* LaunchScreen.storyboard */,
 				A4C58EF3202CF4BA008F3040 /* Info.plist */,
 				A4ADF11520383DFA00BDC5FF /* ModelMarker.swift */,
+				A4C4CDEF203ED63F00B2C391 /* DisplayPoint.swift */,
 			);
 			path = "Chernobyl Tours";
 			sourceTree = "<group>";
@@ -251,6 +260,9 @@
 		A4C58EDA202CF4B9008F3040 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"\"NewSegue\"",
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Soloeast;
@@ -296,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A92CE6207F673D0083A35B /* CustomInfoWindow.xib in Resources */,
 				A4C58EF2202CF4BA008F3040 /* LaunchScreen.storyboard in Resources */,
 				A4ADF1182038A74800BDC5FF /* Localizable.strings in Resources */,
 				A4C58EEF202CF4BA008F3040 /* Assets.xcassets in Resources */,
@@ -474,9 +487,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C4CDF0203ED63F00B2C391 /* DisplayPoint.swift in Sources */,
 				A4C58EEA202CF4B9008F3040 /* MapController.swift in Sources */,
 				A4C58EE6202CF4B9008F3040 /* AppDelegate.swift in Sources */,
 				A4C58EE8202CF4B9008F3040 /* FirstViewController.swift in Sources */,
+				A4A92CE8207F692F0083A35B /* CustomInfoWindow.swift in Sources */,
 				A4ADF11620383DFA00BDC5FF /* ModelMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

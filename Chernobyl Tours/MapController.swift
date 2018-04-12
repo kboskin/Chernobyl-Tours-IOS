@@ -11,20 +11,58 @@ import GoogleMaps
 import MapKit
 import CoreLocation
 
-class MapController: UIViewController, CLLocationManagerDelegate{
+class MapController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate{
 
     @IBOutlet var mapView: GMSMapView!
+    
     //var mapView = GMSMapView()
     var locationManager = CLLocationManager();
     var currentLocation: CLLocation?
+    // collection to store all objects with info
+    var markersHashMap = [String : ModelMarker]()
+    // params to pass
+    var textToPass : String = ""
+    var imageNameToPass : String = ""
+    var audioFileNameToPass : String = ""
+    
     
 
+    func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) -> UIView? {
+         let infoWindow = Bundle.main.loadNibNamed("CustomInfoWindow", owner: self, options: nil)?.first as! CustomInfoWindow
+         infoWindow.label.text = marker.title
+        // get ModelMarker value from hm
+        // and retrieve image from name
+        let currentModelMarker = markersHashMap[marker.title!]
+        infoWindow.UIImageView.image = UIImage(named : (currentModelMarker?.bitmapId)!)
+        
+        // filling the params here
+        textToPass = (currentModelMarker?.description)!
+        imageNameToPass = (currentModelMarker?.bitmapId)!
+        audioFileNameToPass = (currentModelMarker?.audioId)!
+        
+        return infoWindow
+    }
+    
+    // perform segue only id user had tapped the marker info window
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+        performSegue(withIdentifier: "Description", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Description" {
+            let destinationVC = segue.destination as? DisplayPoint
+            // passing params
+            destinationVC?.textToGet = textToPass
+            destinationVC?.imageNameToGet = imageNameToPass
+            destinationVC?.audioFileNameToGet = audioFileNameToPass
+        
+        }
+    }
+  
     
     // Handle incoming location events.
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        var location = locationManager.location?.coordinate
-        
-        cameraMoveToLocation(toLocation: location)
+        cameraMoveToLocation(toLocation: locationManager.location?.coordinate)
         
     }
     
@@ -33,13 +71,24 @@ class MapController: UIViewController, CLLocationManagerDelegate{
             mapView.camera = GMSCameraPosition.camera(withTarget: toLocation!, zoom: 15)
         }
     }
+    override func viewDidLoad() {
+        self.navigationItem.leftBarButtonItem = nil;
+        self.navigationItem.hidesBackButton = true;
+        mapView.delegate = self
+
+    }
     
     override func loadView() {
+        print("dsjsda")
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
         locationManager.distanceFilter = 50
         locationManager.startUpdatingLocation()
         locationManager.delegate = self
+        
+        // deny navigation back
+        navigationController?.navigationBar.isUserInteractionEnabled = false
+        navigationItem.hidesBackButton = true  
        
         
         // arrayList to store all objects with info
@@ -67,6 +116,14 @@ class MapController: UIViewController, CLLocationManagerDelegate{
             marker.position = CLLocationCoordinate2DMake(ModelMarker.latitude, ModelMarker.longitude)
             // marker icon
             marker.icon = self.scaleImage(image: UIImage(named: ModelMarker.bitmapMarkerId)!, scaledToSize: CGSize(width: 50.0, height: 68.0))
+            // marker title
+            marker.title = ModelMarker.title
+            // marker description
+            marker.snippet = ModelMarker.description
+            // filling the hashMap with values
+            markersHashMap[ModelMarker.title] = ModelMarker
+            
+            
             //GMSGroundOverlay.init(position: marker.position, icon: <#T##UIImage?#>, zoomLevel: <#T##CGFloat#>) // for radius
             marker.map = mapView
             
@@ -95,10 +152,11 @@ class MapController: UIViewController, CLLocationManagerDelegate{
     {
         // method to fill an input arrayList with object data
         // first points check point
+        print("The string is" + NSLocalizedString("tour_starting_point_description", comment: "Tour starting point1"))
         modelMarkerArrayList.append(ModelMarker(latitude: 50.45148595,
                                                 longitude: 30.52208215,
                                                 title: NSLocalizedString("tour_starting_point", comment: "Tour starting point"),
-                                                description: NSLocalizedString("tour_starting_point_description", comment: "Tour starting point"),
+                                                description: NSLocalizedString("tour_starting_point_description", comment: "Tour starting point1"),
                                                 bitmapId: "data",
                                                 radius: 50,
                                                 bitmapMarkerId: "pin_1",
@@ -106,7 +164,7 @@ class MapController: UIViewController, CLLocationManagerDelegate{
         modelMarkerArrayList.append(ModelMarker(latitude: 50.45046123,
                                                 longitude: 30.5239436,
                                                 title: NSLocalizedString("kreschatic_street", comment: "Kreschatik street"),
-                                                description: NSLocalizedString("kreshatik_street_description", comment : "Kreschatik street"),
+                                                description: NSLocalizedString("kreshatik_street_description", comment : "Kreschatik street1"),
                                                 bitmapId: "data1",
                                                 radius: 75,
                                                 bitmapMarkerId: "pin_2",
