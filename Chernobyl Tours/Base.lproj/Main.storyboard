@@ -88,20 +88,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" id="NPQ-Na-3mf">
-                                <rect key="frame" x="0.0" y="64" width="320" height="148"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <imageView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" id="NPQ-Na-3mf">
+                                <rect key="frame" x="0.0" y="64" width="320" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.11599997362316206" green="0.38978728513323424" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" contentInsetAdjustmentBehavior="never" textAlignment="justified" adjustsFontForContentSizeCategory="YES" id="utQ-2G-Xqw">
-                                <rect key="frame" x="0.0" y="209" width="320" height="331"/>
+                                <rect key="frame" x="0.0" y="236" width="320" height="332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jT3-7D-GMU">
+                                <rect key="frame" x="16" y="243" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="stop" image="stop"/>
+                                <connections>
+                                    <action selector="stopButtonWith_sender:" destination="XHH-HD-mD7" eventType="touchUpInside" id="ULp-RN-iuI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6Q1-uE-GY2">
+                                <rect key="frame" x="143" y="243" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="play" image="play"/>
+                                <connections>
+                                    <action selector="playButtonWith_sender:" destination="XHH-HD-mD7" eventType="touchUpInside" id="xNJ-bu-YsQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OCl-wR-7DL">
+                                <rect key="frame" x="270" y="243" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="reset" image="repeat"/>
+                                <connections>
+                                    <action selector="resetButtonWith_sender:" destination="XHH-HD-mD7" eventType="touchUpInside" id="QEc-XW-LGz"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleAspectFill" verticalHuggingPriority="750" misplaced="YES" id="3US-bM-G0T">
+                                <rect key="frame" x="10" y="280" width="300" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration">
@@ -116,6 +144,10 @@
                     <connections>
                         <outlet property="UIImageView" destination="NPQ-Na-3mf" id="R1A-qZ-hGH"/>
                         <outlet property="UITextView" destination="utQ-2G-Xqw" id="w0X-BG-FSH"/>
+                        <outlet property="playButton" destination="6Q1-uE-GY2" id="5XW-cw-tDb"/>
+                        <outlet property="progressView" destination="3US-bM-G0T" id="Tqc-JI-tu5"/>
+                        <outlet property="resetButton" destination="OCl-wR-7DL" id="cVh-SH-gxT"/>
+                        <outlet property="stopButton" destination="jT3-7D-GMU" id="Y6i-4e-uLx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QiI-rt-2vm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -227,6 +259,9 @@
         <image name="iconLanguage" width="25" height="25"/>
         <image name="iconMarker" width="25" height="25"/>
         <image name="iconPricing" width="25" height="25"/>
+        <image name="play" width="344" height="344"/>
+        <image name="repeat" width="106" height="106"/>
+        <image name="stop" width="344" height="344"/>
     </resources>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

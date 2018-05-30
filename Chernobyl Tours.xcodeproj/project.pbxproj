@@ -7,11 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4681B892081284A005570AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4681B8B2081284A005570AA /* Localizable.strings */; };
+		A4681BEB20812F3A005570AA /* centre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BCF20812F11005570AA /* centre.mp3 */; };
+		A4681BEC20812F3A005570AA /* kopachi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD020812F11005570AA /* kopachi.mp3 */; };
+		A4681BED20812F3A005570AA /* pripyat_river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD120812F12005570AA /* pripyat_river.mp3 */; };
+		A4681BEE20812F3A005570AA /* zal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD220812F13005570AA /* zal.mp3 */; };
+		A4681BEF20812F3A005570AA /* ivankiv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD320812F14005570AA /* ivankiv.mp3 */; };
+		A4681BF020812F3A005570AA /* monument.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD420812F14005570AA /* monument.mp3 */; };
+		A4681BF120812F3A005570AA /* first_part_nuclear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD520812F15005570AA /* first_part_nuclear.mp3 */; };
+		A4681BF220812F3A005570AA /* chernobyl_new_safe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD620812F16005570AA /* chernobyl_new_safe.mp3 */; };
+		A4681BF320812F3A005570AA /* ferris_wheel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD720812F17005570AA /* ferris_wheel.mp3 */; };
+		A4681BF420812F3A005570AA /* police.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD820812F18005570AA /* police.mp3 */; };
+		A4681BF520812F3A005570AA /* kat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BD920812F19005570AA /* kat.mp3 */; };
+		A4681BF620812F3A005570AA /* tour_starting_point.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDA20812F1A005570AA /* tour_starting_point.m4a */; };
+		A4681BF720812F3A005570AA /* pripyat_town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDB20812F1B005570AA /* pripyat_town.mp3 */; };
+		A4681BF820812F3A005570AA /* dymer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDC20812F1D005570AA /* dymer.mp3 */; };
+		A4681BF920812F3A005570AA /* radar_duga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDD20812F1E005570AA /* radar_duga.mp3 */; };
+		A4681BFA20812F3A005570AA /* chornobyl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDE20812F1F005570AA /* chornobyl.mp3 */; };
+		A4681BFB20812F3A005570AA /* novi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BDF20812F20005570AA /* novi.mp3 */; };
+		A4681BFC20812F3A005570AA /* podol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE020812F21005570AA /* podol.mp3 */; };
+		A4681BFD20812F3A005570AA /* jupiter_factory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE120812F23005570AA /* jupiter_factory.mp3 */; };
+		A4681BFE20812F3A005570AA /* second_part_power_plant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE220812F24005570AA /* second_part_power_plant.mp3 */; };
+		A4681BFF20812F3A005570AA /* swimming_pool.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE320812F26005570AA /* swimming_pool.mp3 */; };
+		A4681C0020812F3A005570AA /* thirty_k_zone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE420812F27005570AA /* thirty_k_zone.mp3 */; };
+		A4681C0120812F3A005570AA /* dit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE520812F2B005570AA /* dit.mp3 */; };
+		A4681C0220812F3A005570AA /* trumpeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE620812F2F005570AA /* trumpeting.mp3 */; };
+		A4681C0320812F3A005570AA /* robots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE720812F30005570AA /* robots.mp3 */; };
+		A4681C0420812F3A005570AA /* st_elijah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE820812F32005570AA /* st_elijah.mp3 */; };
+		A4681C0520812F3A005570AA /* kres_street.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BE920812F34005570AA /* kres_street.mp3 */; };
+		A4681C0620812F3A005570AA /* stadium_avangard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4681BEA20812F36005570AA /* stadium_avangard.mp3 */; };
 		A485981C2039AF4600A40384 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A485981B2039AF4600A40384 /* CoreLocation.framework */; };
 		A4A92CE6207F673D0083A35B /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A92CE5207F673D0083A35B /* CustomInfoWindow.xib */; };
 		A4A92CE8207F692F0083A35B /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */; };
 		A4ADF11620383DFA00BDC5FF /* ModelMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADF11520383DFA00BDC5FF /* ModelMarker.swift */; };
-		A4ADF1182038A74800BDC5FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4ADF1172038A74800BDC5FF /* Localizable.strings */; };
 		A4C4CDF0203ED63F00B2C391 /* DisplayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C4CDEF203ED63F00B2C391 /* DisplayPoint.swift */; };
 		A4C58EE6202CF4B9008F3040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */; };
 		A4C58EE8202CF4B9008F3040 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */; };
@@ -49,12 +77,41 @@
 		2E3A44E8D93FEEEB1E01E6F3 /* Pods-Chernobyl ToursUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursUITests/Pods-Chernobyl ToursUITests.release.xcconfig"; sourceTree = "<group>"; };
 		539FF91D8676CC489E7758C7 /* Pods_Chernobyl_ToursUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chernobyl_ToursUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689C7CDBB876B6EDBAD61F00 /* Pods-Chernobyl ToursTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chernobyl ToursTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chernobyl ToursTests/Pods-Chernobyl ToursTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4681B8A2081284A005570AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4681B8C20812861005570AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4681BCF20812F11005570AA /* centre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = centre.mp3; sourceTree = "<group>"; };
+		A4681BD020812F11005570AA /* kopachi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kopachi.mp3; sourceTree = "<group>"; };
+		A4681BD120812F12005570AA /* pripyat_river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pripyat_river.mp3; sourceTree = "<group>"; };
+		A4681BD220812F13005570AA /* zal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zal.mp3; sourceTree = "<group>"; };
+		A4681BD320812F14005570AA /* ivankiv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ivankiv.mp3; sourceTree = "<group>"; };
+		A4681BD420812F14005570AA /* monument.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monument.mp3; sourceTree = "<group>"; };
+		A4681BD520812F15005570AA /* first_part_nuclear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = first_part_nuclear.mp3; sourceTree = "<group>"; };
+		A4681BD620812F16005570AA /* chernobyl_new_safe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chernobyl_new_safe.mp3; sourceTree = "<group>"; };
+		A4681BD720812F17005570AA /* ferris_wheel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ferris_wheel.mp3; sourceTree = "<group>"; };
+		A4681BD820812F18005570AA /* police.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = police.mp3; sourceTree = "<group>"; };
+		A4681BD920812F19005570AA /* kat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kat.mp3; sourceTree = "<group>"; };
+		A4681BDA20812F1A005570AA /* tour_starting_point.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tour_starting_point.m4a; sourceTree = "<group>"; };
+		A4681BDB20812F1B005570AA /* pripyat_town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pripyat_town.mp3; sourceTree = "<group>"; };
+		A4681BDC20812F1D005570AA /* dymer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dymer.mp3; sourceTree = "<group>"; };
+		A4681BDD20812F1E005570AA /* radar_duga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radar_duga.mp3; sourceTree = "<group>"; };
+		A4681BDE20812F1F005570AA /* chornobyl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chornobyl.mp3; sourceTree = "<group>"; };
+		A4681BDF20812F20005570AA /* novi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = novi.mp3; sourceTree = "<group>"; };
+		A4681BE020812F21005570AA /* podol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = podol.mp3; sourceTree = "<group>"; };
+		A4681BE120812F23005570AA /* jupiter_factory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jupiter_factory.mp3; sourceTree = "<group>"; };
+		A4681BE220812F24005570AA /* second_part_power_plant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = second_part_power_plant.mp3; sourceTree = "<group>"; };
+		A4681BE320812F26005570AA /* swimming_pool.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swimming_pool.mp3; sourceTree = "<group>"; };
+		A4681BE420812F27005570AA /* thirty_k_zone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thirty_k_zone.mp3; sourceTree = "<group>"; };
+		A4681BE520812F2B005570AA /* dit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dit.mp3; sourceTree = "<group>"; };
+		A4681BE620812F2F005570AA /* trumpeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpeting.mp3; sourceTree = "<group>"; };
+		A4681BE720812F30005570AA /* robots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = robots.mp3; sourceTree = "<group>"; };
+		A4681BE820812F32005570AA /* st_elijah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = st_elijah.mp3; sourceTree = "<group>"; };
+		A4681BE920812F34005570AA /* kres_street.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kres_street.mp3; sourceTree = "<group>"; };
+		A4681BEA20812F36005570AA /* stadium_avangard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stadium_avangard.mp3; sourceTree = "<group>"; };
 		A485981B2039AF4600A40384 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A485981D2039C0DF00A40384 /* Kiev.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kiev.gpx; sourceTree = "<group>"; };
 		A4A92CE5207F673D0083A35B /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
 		A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
 		A4ADF11520383DFA00BDC5FF /* ModelMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMarker.swift; sourceTree = "<group>"; };
-		A4ADF1172038A74800BDC5FF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A4C4CDEF203ED63F00B2C391 /* DisplayPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPoint.swift; sourceTree = "<group>"; };
 		A4C58EE2202CF4B9008F3040 /* Chernobyl Tours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chernobyl Tours.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				A485981D2039C0DF00A40384 /* Kiev.gpx */,
-				A4ADF1172038A74800BDC5FF /* Localizable.strings */,
+				A4681B8B2081284A005570AA /* Localizable.strings */,
 				A4C58EE4202CF4B9008F3040 /* Chernobyl Tours */,
 				A4C58EFB202CF4BA008F3040 /* Chernobyl ToursTests */,
 				A4C58F06202CF4BA008F3040 /* Chernobyl ToursUITests */,
@@ -143,6 +200,34 @@
 		A4C58EE4202CF4B9008F3040 /* Chernobyl Tours */ = {
 			isa = PBXGroup;
 			children = (
+				A4681BCF20812F11005570AA /* centre.mp3 */,
+				A4681BD620812F16005570AA /* chernobyl_new_safe.mp3 */,
+				A4681BDE20812F1F005570AA /* chornobyl.mp3 */,
+				A4681BE520812F2B005570AA /* dit.mp3 */,
+				A4681BDC20812F1D005570AA /* dymer.mp3 */,
+				A4681BD720812F17005570AA /* ferris_wheel.mp3 */,
+				A4681BD520812F15005570AA /* first_part_nuclear.mp3 */,
+				A4681BD320812F14005570AA /* ivankiv.mp3 */,
+				A4681BE120812F23005570AA /* jupiter_factory.mp3 */,
+				A4681BD920812F19005570AA /* kat.mp3 */,
+				A4681BD020812F11005570AA /* kopachi.mp3 */,
+				A4681BE920812F34005570AA /* kres_street.mp3 */,
+				A4681BD420812F14005570AA /* monument.mp3 */,
+				A4681BDF20812F20005570AA /* novi.mp3 */,
+				A4681BE020812F21005570AA /* podol.mp3 */,
+				A4681BD820812F18005570AA /* police.mp3 */,
+				A4681BD120812F12005570AA /* pripyat_river.mp3 */,
+				A4681BDB20812F1B005570AA /* pripyat_town.mp3 */,
+				A4681BDD20812F1E005570AA /* radar_duga.mp3 */,
+				A4681BE720812F30005570AA /* robots.mp3 */,
+				A4681BE220812F24005570AA /* second_part_power_plant.mp3 */,
+				A4681BE820812F32005570AA /* st_elijah.mp3 */,
+				A4681BEA20812F36005570AA /* stadium_avangard.mp3 */,
+				A4681BE320812F26005570AA /* swimming_pool.mp3 */,
+				A4681BE420812F27005570AA /* thirty_k_zone.mp3 */,
+				A4681BDA20812F1A005570AA /* tour_starting_point.m4a */,
+				A4681BE620812F2F005570AA /* trumpeting.mp3 */,
+				A4681BD220812F13005570AA /* zal.mp3 */,
 				A4C58EE5202CF4B9008F3040 /* AppDelegate.swift */,
 				A4A92CE7207F692F0083A35B /* CustomInfoWindow.swift */,
 				A4C58EE7202CF4B9008F3040 /* FirstViewController.swift */,
@@ -308,11 +393,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4681BEE20812F3A005570AA /* zal.mp3 in Resources */,
+				A4681C0320812F3A005570AA /* robots.mp3 in Resources */,
 				A4A92CE6207F673D0083A35B /* CustomInfoWindow.xib in Resources */,
+				A4681C0120812F3A005570AA /* dit.mp3 in Resources */,
+				A4681BF920812F3A005570AA /* radar_duga.mp3 in Resources */,
+				A4681BFD20812F3A005570AA /* jupiter_factory.mp3 in Resources */,
 				A4C58EF2202CF4BA008F3040 /* LaunchScreen.storyboard in Resources */,
-				A4ADF1182038A74800BDC5FF /* Localizable.strings in Resources */,
+				A4681BEF20812F3A005570AA /* ivankiv.mp3 in Resources */,
+				A4681BEC20812F3A005570AA /* kopachi.mp3 in Resources */,
+				A4681BFB20812F3A005570AA /* novi.mp3 in Resources */,
+				A4681BFA20812F3A005570AA /* chornobyl.mp3 in Resources */,
+				A4681BF520812F3A005570AA /* kat.mp3 in Resources */,
+				A4681BFC20812F3A005570AA /* podol.mp3 in Resources */,
+				A4681C0620812F3A005570AA /* stadium_avangard.mp3 in Resources */,
+				A4681C0020812F3A005570AA /* thirty_k_zone.mp3 in Resources */,
+				A4681BF620812F3A005570AA /* tour_starting_point.m4a in Resources */,
+				A4681BF820812F3A005570AA /* dymer.mp3 in Resources */,
+				A4681BFF20812F3A005570AA /* swimming_pool.mp3 in Resources */,
+				A4681B892081284A005570AA /* Localizable.strings in Resources */,
+				A4681BEB20812F3A005570AA /* centre.mp3 in Resources */,
+				A4681BF120812F3A005570AA /* first_part_nuclear.mp3 in Resources */,
 				A4C58EEF202CF4BA008F3040 /* Assets.xcassets in Resources */,
+				A4681BF320812F3A005570AA /* ferris_wheel.mp3 in Resources */,
+				A4681BFE20812F3A005570AA /* second_part_power_plant.mp3 in Resources */,
+				A4681C0420812F3A005570AA /* st_elijah.mp3 in Resources */,
+				A4681C0520812F3A005570AA /* kres_street.mp3 in Resources */,
 				A4C58EED202CF4B9008F3040 /* Main.storyboard in Resources */,
+				A4681BF420812F3A005570AA /* police.mp3 in Resources */,
+				A4681C0220812F3A005570AA /* trumpeting.mp3 in Resources */,
+				A4681BF020812F3A005570AA /* monument.mp3 in Resources */,
+				A4681BF220812F3A005570AA /* chernobyl_new_safe.mp3 in Resources */,
+				A4681BF720812F3A005570AA /* pripyat_town.mp3 in Resources */,
+				A4681BED20812F3A005570AA /* pripyat_river.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +641,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A4681B8B2081284A005570AA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4681B8A2081284A005570AA /* en */,
+				A4681B8C20812861005570AA /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A4C58EEB202CF4B9008F3040 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
